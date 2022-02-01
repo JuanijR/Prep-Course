@@ -1,0 +1,25 @@
+/* las etiquetas a modo de referencia al que queremos modificar y entre {} 
+colocamos las caracteristimas a diseñar*/
+html{
+    background-color: silver;
+}
+h1{
+    color:blue ;
+}
+img{
+    width: 400px ;
+}
+/*en el caaso de los ID nos identificamos colocando un # y en nombre del id al que queremos modifical*/
+#thirdDiv{
+    height: 600px; /* para modificar el alto */
+    width: 500px; /* para modificar el ancho */
+    background-color: rgb(71, 156, 108); /* para modificar el color de fondo */
+    padding: 50px;
+    border: 7px rgb(110, 97, 97) solid; /*dorde y estilo del "marco"*/
+}
+#spanId{
+    font-size: 18px;
+    margin: 50px;
+}
+/*si quisieramos referirnos al las class la forma de correcta es anteponer 
+un . y el nombre de la clase, ej: .divClass*/
