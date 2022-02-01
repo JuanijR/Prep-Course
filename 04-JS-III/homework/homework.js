@@ -246,8 +246,8 @@ function continueStatement(numero) {
     if(5 === i){
       continue;
     }else{
-      ;sumar += 2;
-      arr.push(sumar)
+      sumar += 2;
+      arr.push(sumar);
     }
   }return arr;
 }
